@@ -1,7 +1,7 @@
 # IsbnLibrary
 The library provides a check if a ISBN-13 is valid or not. It also calculates a ISBN-13 check number with a given isbn root.
 
-##Install
+## Install
 `composer require thomasdcodes/isbn-library`
 
 ## Use
