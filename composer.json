@@ -1,0 +1,25 @@
+{
+    "name": "thomasdcodes/isbn-library",
+    "version": "1.0.0",
+    "description": "The library provides a check if a ISBN-13 is valid or not. It also calculates a ISBN-13 check number with a given isbn root.",
+    "keywords": ["ISBN", "ISBN-13", "isbn check"],
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Deutschländer",
+            "email": "thomas@deutschlaender.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thomasdcodes\\": "src/"
+        }
+    }
+}
